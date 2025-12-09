@@ -5,68 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Web Development Best Practices - CFrameCollision</title>
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Header -->
+    <div id="header">
         <div class="container">
-            <h1 class="logo">CFrameCollision</h1>
-            <ul class="nav-links">
+            <div id="logo">
+                <h3><a href="../index.html">CFrameCollision</a></h3>
+                <p>Developer &amp; Writer</p>
+            </header>
+            <nav id="nav">
+                <ul class="default">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../blog.html" class="active">Blog</a></li>
+                <li class="current"><a href="../blog.html">Blog</a></li>
                 <li><a href="../resume.html">Resume</a></li>
             </ul>
-        </div>
-    </nav>
+            </header>
+        </header>
+    </header>
+    </div>
 
-    <main class="container">
-        <article class="post-content">
-            <div class="post-header">
-                <h1>Modern Web Development Best Practices</h1>
-                <p class="post-meta">December 7, 2025 • 8 min read</p>
-            </div>
+    <!-- Main -->
+    <div id="main">
+        <div class="container">
+            <div id="content">
+                <article class="box">
+            <header>
+                        <h2>Modern Web Development Best Practices</h2>
+                <p class="date">December 7, 2025 • 8 min read</p>
+            </header>
 
             <p>The web development landscape is constantly evolving, with new tools, frameworks, and best practices emerging regularly. Staying current with these best practices is essential for creating high-quality, maintainable websites and applications.</p>
 
-            <h2>Responsive Design</h2>
+            <h3>Responsive Design</h3>
             <p>With users accessing websites from countless device types and screen sizes, responsive design is no longer optional—it's essential. Use flexible grids, fluid layouts, and CSS media queries to ensure your site looks great everywhere.</p>
 
             <h3>Mobile-First Approach</h3>
             <p>Start by designing for mobile devices, then progressively enhance the experience for larger screens. This ensures a solid foundation and better performance on mobile devices.</p>
 
-            <h2>Performance Optimization</h2>
+            <h3>Performance Optimization</h3>
             <p>Website performance directly impacts user experience and SEO. Here are key areas to focus on:</p>
             
-            <ul>
+            <ul class="default">
                 <li><strong>Minimize HTTP requests:</strong> Combine files and use sprites where appropriate</li>
                 <li><strong>Optimize images:</strong> Use appropriate formats and compress images</li>
                 <li><strong>Enable caching:</strong> Leverage browser caching for static assets</li>
                 <li><strong>Minify resources:</strong> Compress CSS, JavaScript, and HTML</li>
                 <li><strong>Use a CDN:</strong> Distribute content closer to users geographically</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Accessibility</h2>
+            <h3>Accessibility</h3>
             <p>Making your website accessible ensures that everyone, including people with disabilities, can use your site effectively. Key practices include:</p>
             
-            <ul>
+            <ul class="default">
                 <li>Use semantic HTML elements</li>
                 <li>Provide alternative text for images</li>
                 <li>Ensure sufficient color contrast</li>
                 <li>Make navigation keyboard-friendly</li>
                 <li>Use ARIA labels where appropriate</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Security</h2>
+            <h3>Security</h3>
             <p>Security should be a priority from the start of any web project:</p>
             
-            <ul>
+            <ul class="default">
                 <li>Use HTTPS for all connections</li>
                 <li>Validate and sanitize all user inputs</li>
                 <li>Keep dependencies up to date</li>
                 <li>Implement proper authentication and authorization</li>
                 <li>Use Content Security Policy headers</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Code Quality</h2>
+            <h3>Code Quality</h3>
             <p>Maintainable code is crucial for long-term project success:</p>
             
             <h3>Follow Coding Standards</h3>
@@ -78,47 +95,73 @@
             <h3>Practice DRY (Don't Repeat Yourself)</h3>
             <p>Avoid code duplication by creating reusable functions and components. This makes your codebase easier to maintain and update.</p>
 
-            <h2>Version Control</h2>
+            <h3>Version Control</h3>
             <p>Use Git for version control and follow best practices:</p>
             
-            <ul>
+            <ul class="default">
                 <li>Write clear, descriptive commit messages</li>
                 <li>Use branches for new features and fixes</li>
                 <li>Review code before merging</li>
                 <li>Keep commits small and focused</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Testing</h2>
+            <h3>Testing</h3>
             <p>Implement different types of testing to catch bugs early:</p>
             
-            <ul>
+            <ul class="default">
                 <li><strong>Unit tests:</strong> Test individual functions and components</li>
                 <li><strong>Integration tests:</strong> Test how different parts work together</li>
                 <li><strong>End-to-end tests:</strong> Test complete user workflows</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Continuous Learning</h2>
+            <h3>Continuous Learning</h3>
             <p>The web development field moves fast. Stay current by:</p>
             
-            <ul>
+            <ul class="default">
                 <li>Following industry blogs and newsletters</li>
                 <li>Participating in online communities</li>
                 <li>Experimenting with new technologies</li>
                 <li>Attending conferences and meetups</li>
                 <li>Contributing to open source projects</li>
             </ul>
+            </header>
+    </div>
 
-            <h2>Conclusion</h2>
+            <h3>Conclusion</h3>
             <p>Following these best practices will help you create better websites and applications. Remember that best practices evolve over time, so stay curious, keep learning, and don't be afraid to adapt as new techniques and technologies emerge.</p>
 
-            <a href="../blog.html" class="back-link">← Back to Blog</a>
+            <a href="../blog.html" class="button">← Back to Blog</a>
         </article>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 CFrameCollision. All rights reserved.</p>
+            </div>
         </div>
-    </footer>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <section>
+                <header>
+                    <h3>Get in touch</h3>
+                </header>
+                <ul class="contact">
+                    <li><a href="#" class="fa-brands fa-github"><span>GitHub</span></a></li>
+                    <li><a href="#" class="fa-brands fa-linkedin"><span>LinkedIn</span></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"><span>Twitter</span></a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <div class="container">
+            &copy; 2025 CFrameCollision. All rights reserved.</p>
+        </header>
+    </div>
+    </div>
 </body>
 </html>

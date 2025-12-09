@@ -5,50 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CFrameCollision - Home</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Header -->
+    <div id="header">
         <div class="container">
-            <h1 class="logo">CFrameCollision</h1>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
+            <div id="logo">
+                <h1><a href="index.html">CFrameCollision</a></h1>
+                <p>Developer &amp; Writer</p>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </div>
 
-    <main class="container">
-        <section class="hero">
-            <h1>Welcome to My Personal Site</h1>
-            <p class="subtitle">Explore my blog posts and learn more about my professional experience</p>
-            <div class="cta-buttons">
-                <a href="blog.html" class="btn btn-primary">Read Blog</a>
-                <a href="resume.html" class="btn btn-secondary">View Resume</a>
-            </div>
-        </section>
-
-        <section class="featured">
-            <h2>Recent Posts</h2>
-            <div class="post-grid">
-                <article class="post-card">
-                    <h3><a href="blog/post1.html">Getting Started with GitHub Pages</a></h3>
-                    <p class="post-meta">December 9, 2025</p>
-                    <p>Learn how to set up your own GitHub Pages site and start sharing your content with the world.</p>
-                </article>
-                <article class="post-card">
-                    <h3><a href="blog/post2.html">Building a Personal Brand Online</a></h3>
-                    <p class="post-meta">December 8, 2025</p>
-                    <p>Discover strategies for establishing and growing your professional presence on the internet.</p>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
+    <!-- Banner -->
+    <div id="banner">
         <div class="container">
-            <p>&copy; 2025 CFrameCollision. All rights reserved.</p>
+            <section>
+                <header>
+                    <h2>Welcome to My Personal Site</h2>
+                    <span class="byline">Exploring technology, sharing knowledge, and building the future</span>
+                </header>
+                <p>I'm a passionate developer who loves to write about web development, software engineering, and technology trends. Browse my blog for tutorials and insights, or check out my resume to learn more about my professional experience.</p>
+                <a href="blog.html" class="button">Explore Blog</a>
+            </section>
         </div>
-    </footer>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+        <div class="container">
+            <div id="content">
+                <section>
+                    <header>
+                        <h2>Recent Posts</h2>
+                        <span class="byline">Latest thoughts and tutorials</span>
+                    </header>
+                    <div class="row">
+                        <div class="col">
+                            <article class="box">
+                                <a href="blog/post1.html" class="image featured"><div class="placeholder-image"><i class="fas fa-code"></i></div></a>
+                                <header>
+                                    <h3><a href="blog/post1.html">Getting Started with GitHub Pages</a></h3>
+                                    <p class="date">December 9, 2025</p>
+                                </header>
+                                <p>Learn how to set up your own GitHub Pages site and start sharing your content with the world.</p>
+                                <a href="blog/post1.html" class="button">Read More</a>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="box">
+                                <a href="blog/post2.html" class="image featured"><div class="placeholder-image"><i class="fas fa-users"></i></div></a>
+                                <header>
+                                    <h3><a href="blog/post2.html">Building a Personal Brand Online</a></h3>
+                                    <p class="date">December 8, 2025</p>
+                                </header>
+                                <p>Discover strategies for establishing and growing your professional presence on the internet.</p>
+                                <a href="blog/post2.html" class="button">Read More</a>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="box">
+                                <a href="blog/post3.html" class="image featured"><div class="placeholder-image"><i class="fas fa-laptop-code"></i></div></a>
+                                <header>
+                                    <h3><a href="blog/post3.html">Modern Web Development</a></h3>
+                                    <p class="date">December 7, 2025</p>
+                                </header>
+                                <p>Explore the latest best practices in web development, including responsive design and accessibility.</p>
+                                <a href="blog/post3.html" class="button">Read More</a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <section>
+                <header>
+                    <h2>Get in touch</h2>
+                </header>
+                <ul class="contact">
+                    <li><a href="#" class="fa-brands fa-github"><span>GitHub</span></a></li>
+                    <li><a href="#" class="fa-brands fa-linkedin"><span>LinkedIn</span></a></li>
+                    <li><a href="#" class="fa-brands fa-twitter"><span>Twitter</span></a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+    <div id="copyright">
+        <div class="container">
+            &copy; 2025 CFrameCollision. All rights reserved.
+        </div>
+    </div>
 </body>
 </html>
